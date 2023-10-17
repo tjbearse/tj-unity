@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.InputSystem;
 
-using TJ.Bindings;
-
-namespace TJ.Controls {
+namespace TJ.Bindings.Controls {
 	
 	public interface IBuilder {
 		IInputAssetSyntax Asset(InputActionAsset asset);
